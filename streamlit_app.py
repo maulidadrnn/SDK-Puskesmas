@@ -9,16 +9,16 @@ st.write("[![Star](https://img.shields.io/github/stars/dataprofessor/links.svg?l
 col1, col2, col3 = st.columns(3)
 col2.image(Image.open('dp.png'))
 
-st.header('Chanin Nantasenamat, Ph.D.')
+st.header('DINAS KESEHATAN KOTA SEMARANG')
 
-st.info('Developer Advocate, Content Creator and ex-Professor with an interest in Data Science and Bioinformatics')
+st.info('Form Tenaga Kesehatan Teladan Puskesmas Kota Semarang')
 
 icon_size = 20
 
-st_button('youtube', 'https://youtube.com/dataprofessor', 'Data Professor YouTube channel', icon_size)
-st_button('youtube', 'https://youtube.com/codingprofessor', 'Coding Professor YouTube channel', icon_size)
-st_button('medium', 'https://data-professor.medium.com/', 'Read my Blogs', icon_size)
-st_button('twitter', 'https://twitter.com/thedataprof/', 'Follow me on Twitter', icon_size)
-st_button('linkedin', 'https://www.linkedin.com/in/chanin-nantasenamat/', 'Follow me on LinkedIn', icon_size)
-st_button('newsletter', 'https://sendfox.com/dataprofessor/', 'Sign up for my Newsletter', icon_size)
-st_button('cup', 'https://www.buymeacoffee.com/dataprofessor/', 'Buy me a Coffee', icon_size)
+st_button('google forms', 'https://forms.gle/sfZT9CVAU3p1HqM76', 'Form Tenaga Kesehatan Perawat', icon_size)
+st_button('google forms', 'https://forms.gle/ToDgL54TH1DTuLfi6', 'Form Tenaga Kesehatan Bidan', icon_size)
+st_button('google forms', 'https://forms.gle/WBWbyBiy6d3ChhDW7', 'Form Tenaga Kesehatan Dokter', icon_size)
+st_button('google forms', 'https://forms.gle/LanZSeHxJFgXEHYw9', 'Form Tenaga Kesehatan ATLM', icon_size)
+st_button('google forms', 'https://forms.gle/Rh9sP8SXncEVZCBJA', 'Form Tenaga Kesehatan Nutrisionis', icon_size)
+st_button('google forms', 'https://forms.gle/ADXhMyMYVYEa3Vqe9', 'Form Tenaga Kesehatan Farmasi - TTK', icon_size)
+st_button('google forms', 'https://forms.gle/YC74GULEYvojusBn9', 'Form Tenaga Kesehatan Farmasi - Apoteker', icon_size)
